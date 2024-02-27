@@ -1,0 +1,50 @@
+.postProfile {
+    width: 60vw;
+    height: 25vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 5px 5px;
+    }
+    
+.postProfile:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 10px 10px 10px 10px;
+    cursor: pointer;
+}
+.postProfile .titleProfile {
+    flex: 15%;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    
+.postProfile .bodyProfile {
+    flex: 60%;
+    display: grid;
+    place-content: center;
+    background-color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.postProfile .usernameProfile{
+    flex: 50%;
+}
+    
+.postProfile .footerProfile {
+    flex: 20%;
+  border-top: 1px solid rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  background-color: rgb(255, 255, 255);
+  color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: black;
+    }
